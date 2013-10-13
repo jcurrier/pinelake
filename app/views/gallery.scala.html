@@ -9,84 +9,96 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="@routes.Assets.at("stylesheets/common.css")">
-<link rel="stylesheet" href="@routes.Assets.at("stylesheets/style.css")">
-<link rel="stylesheet" href="@routes.Assets.at("stylesheets/color.css")">
-<link rel="stylesheet" href="@routes.Assets.at("stylesheets/responsive.css")">
-<link rel="stylesheet" href="@routes.Assets.at("stylesheets/prettyPhoto.css")">
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/pinelake-css/common.css">
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/pinelake-css/style.css">
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/pinelake-css/color.css">
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/pinelake-css/responsive.css">
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/pinelake-css/prettyPhoto.css">
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 </head>
 
 <body>
 <div class="wrap">
-  <div class="tp-bar">
+<div class="tp-bar">
     <div class="container">
-      <div class="logo"> <a href="pinelake#"><image src="https://s3-us-west-2.amazonaws.com/pinelake-images/logo.png"></a> <span class="slogan"> Helping Living Project </span> </div>
-      <!-- logo ends -->
-      <div class="tp-right">
-        <div class="social-links">
-          <ul>
-            <li><a href="#" class="icon-yahoo tooltip" title="yahoo"></a></li>
-            <li><a href="#" class="icon-facebook tooltip" title="facebook"></a></li>
-            <li><a href="#" class="icon-rss tooltip" title="rss"></a></li>
-            <li><a href="#" class="icon-flickr tooltip" title="flickr"></a></li>
-            <li><a href="#" class="icon-msn tooltip" title="msn"></a></li>
-            <li><a href="#" class="icon-stumbleupon tooltip" title="stumbleupon"></a></li>
-          </ul>
+        <div class="logo">
+            <a href="pinelake#">
+                <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/logo.png">
+            </a> <span class="slogan"> Helping Living Project </span> </div>
+        <!-- logo ends -->
+        <div class="tp-right">
+            <div class="social-links">
+                <ul>
+                    <li><a href="#" class="icon-yahoo tooltip" title="yahoo"></a></li>
+                    <li><a href="#" class="icon-facebook tooltip" title="facebook"></a></li>
+                    <li><a href="#" class="icon-rss tooltip" title="rss"></a></li>
+                    <li><a href="#" class="icon-flickr tooltip" title="flickr"></a></li>
+                    <li><a href="#" class="icon-msn tooltip" title="msn"></a></li>
+                    <li><a href="#" class="icon-stumbleupon tooltip" title="stumbleupon"></a></li>
+                </ul>
+            </div>
+            <div class="tweets">
+                <ul id="tweet">
+                    <li>Here are 10 quality, affordable Zen Cart Templates, perfect for a wide variety of eCommerce needs. <a href="#">http://enva.to/XiCf5F</a></li>
+                    <li>perfect for a wide variety of eCommerce needs. <a href="#">http://enva.to/XiCf5F</a></li>
+                    <li>affordable Zen Cart Templates, perfect for a wide variety of eCommerce needs</li>
+                </ul>
+            </div>
         </div>
-        <div class="tweets">
-          <ul id="tweet">
-            <li>Here are 10 quality, affordable Zen Cart Templates, perfect for a wide variety of eCommerce needs. <a href="#">http://enva.to/XiCf5F</a></li>
-            <li>perfect for a wide variety of eCommerce needs. <a href="#">http://enva.to/XiCf5F</a></li>
-            <li>affordable Zen Cart Templates, perfect for a wide variety of eCommerce needs</li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </div><!-- tp-bar ends -->
-  <ul class="menu">
-      <li><a href="pinelake#">Home</a></li>
-      <li><a href="events#">Events</a></li>
-      <li><a href="blog#">Blog</a></li>
-      <li><a href="gallery#">Gallery</a></li>
-      <li><a href="contact#">Contact Us</a></li>
-      <li>
-          <a href="#">Pages</a>
-          <ul>
-              <li>
-                  <a href="events#">Events</a>
-                  <ul>
-                      <li><a href="events-detail.html">Event Detail</a></li>
-                  </ul>
-              </li>
-              <li>
-                  <a href="blog#">Blog</a>
-                  <ul>
-                      <li><a href="blog-detail.html">Blog Detail</a></li>
-                  </ul>
-              </li>
-              <li><a href="gallery#">Gallery</a></li>
-              <li><a href="contact#">Contact Us</a></li>
-              <li>
-                  <a href="#">Cursus Tempor</a>
-                  <ul>
-                      <li><a href="#">Ultrices augue dolor</a></li>
-                      <li>
-                          <a href="#">Etiam risus et</a>
-                          <ul>
-                              <li><a href="#">Etiam risus et</a></li>
-                              <li><a href="#">Ultrices augue dolor</a></li>
-                              <li><a href="#">Cursus Tempor</a></li>
-                          </ul>
-                      </li>
-                  </ul>
-              </li>
-          </ul>
-      </li>
-  </ul><!-- menu ends -->
-  <image src="@routes.Assets.at("images/logo.png")">
-  <div class="banner" style="background:url(images/resource/banner-1.jpg);">
+</div><!-- tp-bar ends -->
+<nav class="menu-bar">
+    <div class="container">
+        <a href="#" class="tablet-menu"></a>
+        <ul class="menu">
+            <li><a href="pinelake#">Home</a></li>
+            <li><a href="events#">Events</a></li>
+            <li><a href="blog#">Blog</a></li>
+            <li><a href="gallery#">Gallery</a></li>
+            <li><a href="contact#">Contact Us</a></li>
+            <li>
+                <a href="#">Pages</a>
+                <ul>
+                    <li>
+                        <a href="events#">Events</a>
+                        <ul>
+                            <li><a href="events-detail.html">Event Detail</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="blog#">Blog</a>
+                        <ul>
+                            <li><a href="blog-detail.html">Blog Detail</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery#">Gallery</a></li>
+                    <li><a href="contact#">Contact Us</a></li>
+                    <li>
+                        <a href="#">Cursus Tempor</a>
+                        <ul>
+                            <li><a href="#">Ultrices augue dolor</a></li>
+                            <li>
+                                <a href="#">Etiam risus et</a>
+                                <ul>
+                                    <li><a href="#">Etiam risus et</a></li>
+                                    <li><a href="#">Ultrices augue dolor</a></li>
+                                    <li><a href="#">Cursus Tempor</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul><!-- menu ends -->
+        <div class="user-controls">
+            <a href="#" class="user-login"></a>
+            <a href="#" class="user-search"></a>
+        </div>
+    </div>
+</nav><!-- menu-bar ends -->
+  <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/logo.png">
+  <div class="banner" style="background:url(https://s3-us-west-2.amazonaws.com/pinelake-images/resource/banner-1.jpg);">
     <div class="container">
       <h1>Gallery - Three Column</h1>
       <div class="bread-bar clearfix">
@@ -105,7 +117,7 @@
         <div class="span4">
           <div class="image">
               <a href="@routes.Assets.at("images/resource/img-3.jpg")" data-rel="prettyPhoto[gallery1]" title="gallery image">
-                <image src="@routes.Assets.at("images/resource/gal-3-col-1.jpg")">
+                <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/resource/gal-3-col-1.jpg">
               <div class="image-info">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
@@ -115,7 +127,7 @@
         <div class="span4">
           <div class="image">
             <a href="images/resource/img-4.jpg" data-rel="prettyPhoto[gallery1]" title="gallery image">
-                <image src="@routes.Assets.at("images/resource/gal-3-col-2.jpg")">
+                <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/resource/gal-3-col-2.jpg">
               <div class="image-info">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
@@ -125,7 +137,7 @@
         <div class="span4">
           <div class="image">
             <a href="images/resource/img-5.jpg" data-rel="prettyPhoto[gallery1]" title="gallery image">
-                <image src="@routes.Assets.at("images/resource/gal-3-col-3.jpg")">
+                <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/resource/gal-3-col-3.jpg">
               <div class="image-info">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
@@ -135,7 +147,7 @@
         <div class="span4">
           <div class="image">
             <a href="images/resource/img-3.jpg" data-rel="prettyPhoto[gallery1]" title="gallery image">
-                <image src="@routes.Assets.at("images/resource/gal-3-col-4.jpg")">
+                <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/resource/gal-3-col-4.jpg">
               <div class="image-info">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
@@ -145,7 +157,7 @@
         <div class="span4">
           <div class="image">
             <a href="images/resource/img-4.jpg" data-rel="prettyPhoto[gallery1]" title="gallery image">
-                <image src="@routes.Assets.at("images/resource/gal-3-col-5.jpg")">
+                <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/resource/gal-3-col-5.jpg">
               <div class="image-info">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
@@ -155,7 +167,7 @@
         <div class="span4">
           <div class="image">
             <a href="images/resource/img-5.jpg" data-rel="prettyPhoto[gallery1]" title="gallery image">
-                <image src="@routes.Assets.at("images/resource/gal-3-col-6.jpg")">
+                <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/resource/gal-3-col-6.jpg">
               <div class="image-info">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
@@ -165,7 +177,7 @@
         <div class="span4">
           <div class="image">
             <a href="images/resource/img-3.jpg" data-rel="prettyPhoto[gallery1]" title="gallery image">
-                <image src="@routes.Assets.at("images/resource/gal-3-col-7.jpg")">
+                <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/resource/gal-3-col-7.jpg">
               <div class="image-info">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
@@ -175,7 +187,7 @@
         <div class="span4">
           <div class="image">
             <a href="images/resource/img-4.jpg" data-rel="prettyPhoto[gallery1]" title="gallery image">
-                <image src="@routes.Assets.at("images/resource/gal-3-col-8.jpg")">
+                <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/resource/gal-3-col-8.jpg">
               <div class="image-info">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
@@ -185,7 +197,7 @@
         <div class="span4">
           <div class="image">
             <a href="images/resource/img-5.jpg" data-rel="prettyPhoto[gallery1]" title="gallery image">
-                <image src="@routes.Assets.at("images/resource/gal-3-col-9.jpg")">
+                <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/resource/gal-3-col-9.jpg">
               <div class="image-info">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
@@ -218,25 +230,25 @@
                   <div class="posts-list">
                       <ul>
                           <li>
-                              <image src="@routes.Assets.at("images/resource/thumbs/post-thumb-1.jpg")">
-                              <div class="post-text">
-                                  <h5><a href="#">Lorem ipsum dolor sit ametc..</a></h5>
-                                  <p>From the island-studded seas of the north to the meandering the....</p>
-                              </div>
+                              <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/resource/thumbs/post-thumb-1.jpg">
+                                  <div class="post-text">
+                                      <h5><a href="#">Lorem ipsum dolor sit ametc..</a></h5>
+                                      <p>From the island-studded seas of the north to the meandering the....</p>
+                                  </div>
                           </li>
                           <li>
-                              <image src="@routes.Assets.at("images/resource/thumbs/post-thumb-2.jpg")">
-                              <div class="post-text">
-                                  <h5><a href="#">Lorem ipsum dolor sit ametc..</a></h5>
-                                  <p>From the island-studded seas of the north to the meandering the....</p>
-                              </div>
+                              <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/resource/thumbs/post-thumb-2.jpg">
+                                  <div class="post-text">
+                                      <h5><a href="#">Lorem ipsum dolor sit ametc..</a></h5>
+                                      <p>From the island-studded seas of the north to the meandering the....</p>
+                                  </div>
                           </li>
                           <li>
-                              <image src="@routes.Assets.at("images/resource/thumbs/post-thumb-3.jpg")">
-                              <div class="post-text">
-                                  <h5><a href="#">Lorem ipsum dolor sit ametc..</a></h5>
-                                  <p>From the island-studded seas of the north to the meandering the....</p>
-                              </div>
+                              <image src="https://s3-us-west-2.amazonaws.com/pinelake-images/resource/thumbs/post-thumb-3.jpg">
+                                  <div class="post-text">
+                                      <h5><a href="#">Lorem ipsum dolor sit ametc..</a></h5>
+                                      <p>From the island-studded seas of the north to the meandering the....</p>
+                                  </div>
                           </li>
                       </ul>
                   </div>
@@ -277,27 +289,27 @@
       </div>
   </footer>
   <div class="bottom">
-    <div class="container">
-      <div class="bottom-left">
-        <p>&copy;2013 H.E.L.P. All rights reserved. Theme Designed By <a href="#">Themebazaar</a></p>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Environment</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="#">Site Map</a></li>
-        </ul>
+      <div class="container">
+          <div class="bottom-left">
+              <p>&copy;2013 H.E.L.P. All rights reserved. Theme Designed By <a href="#">Themebazaar</a></p>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#">Environment</a></li>
+                  <li><a href="contact#">Contact Us</a></li>
+                  <li><a href="#">Site Map</a></li>
+              </ul>
+          </div>
+          <div class="social-links">
+              <ul>
+                  <li><a href="#" class="icon-yahoo tooltip" title="yahoo"></a></li>
+                  <li><a href="#" class="icon-facebook tooltip" title="facebook"></a></li>
+                  <li><a href="#" class="icon-rss tooltip" title="rss"></a></li>
+                  <li><a href="#" class="icon-flickr tooltip" title="flickr"></a></li>
+                  <li><a href="#" class="icon-msn tooltip" title="msn"></a></li>
+                  <li><a href="#" class="icon-stumbleupon tooltip" title="stumbleupon"></a></li>
+              </ul>
+          </div>
       </div>
-      <div class="social-links">
-        <ul>
-          <li><a href="#" class="icon-yahoo tooltip" title="yahoo"></a></li>
-          <li><a href="#" class="icon-facebook tooltip" title="facebook"></a></li>
-          <li><a href="#" class="icon-rss tooltip" title="rss"></a></li>
-          <li><a href="#" class="icon-flickr tooltip" title="flickr"></a></li>
-          <li><a href="#" class="icon-msn tooltip" title="msn"></a></li>
-          <li><a href="#" class="icon-stumbleupon tooltip" title="stumbleupon"></a></li>
-        </ul>
-      </div>
-    </div>
   </div><!-- bottom ends -->
 </div><!-- wrap ends -->
 
